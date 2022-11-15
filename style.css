@@ -1,0 +1,174 @@
+/* reset css from top */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+/* reset css to bottom */
+
+body {
+    min-height: 100vh; 
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+}
+
+main .nft-card {
+    margin: 5rem auto;
+    background-color: hsl(216, 50%, 16%);
+    width: 18rem;
+    height: 30rem;
+    position: relative;
+    border: none;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    box-shadow: 0rem 3.25rem 2.4375rem 0.625rem hsl(216, 43%, 9%);
+    -webkit-box-shadow: 0rem 3.25rem 2.4375rem 0.625rem hsl(216, 43%, 9%);
+    -moz-box-shadow: 0rem 3.25rem 2.4375rem 0.625rem hsl(216, 43%, 9%);
+    -ms-box-shadow: 0rem 3.25rem 2.4375rem 0.625rem hsl(216, 43%, 9%);
+    -o-box-shadow: 0rem 3.25rem 2.4375rem 0.625rem hsl(216, 43%, 9%);
+}
+
+
+main .nft-card .nft-image-wrapper {
+    position: relative;
+    /* background-color: aliceblue; */
+    height: 17rem;
+    width: 17rem;
+    margin: 3rem auto;
+    top: 0.5rem;
+}
+
+
+
+main .nft-card .nft-image-wrapper .nft-photo{
+    position: absolute;
+    height: 16em;
+    width: 16rem;
+    border: none;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+
+main .nft-card .nft-information-wrapper {
+    /* background-color: antiquewhite; */
+    position: relative;
+    width: 18rem;
+    height: 7.5rem;
+    margin-top: -2rem;
+
+}
+
+main .nft-card .nft-information-wrapper .nft-title-and-description-container {
+    width: 16rem;
+    height: 4.5rem;
+    /* background-color: brown; */
+    margin: auto;
+}
+
+main .nft-card .nft-information-wrapper .nft-title-and-description-container .nft-heading-title-with-id-text {
+    position: absolute;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+main .nft-card .nft-information-wrapper .nft-title-and-description-container .nft-paragraph-description-text {
+    position: absolute;
+    top: 2rem;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+main .nft-card .nft-information-wrapper .nft-price-and-no-of-days-left-container {
+    width: 16rem;
+    height: 3rem;
+    /* background-color: rgb(165, 140, 42); */ 
+    margin: auto;
+}
+
+main .nft-card .nft-information-wrapper .nft-price-and-no-of-days-left-container .ethereum-icon {
+    position: absolute;
+    top: 5.5rem;
+}
+
+main .nft-card .nft-information-wrapper .nft-price-and-no-of-days-left-container .ethereum-price-value-only {
+    position: absolute;
+    top: 5.5rem;
+    left: 2rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+main .nft-card .nft-information-wrapper .nft-price-and-no-of-days-left-container .clock-icon {
+    position: absolute;
+    top: 5.5rem;
+    left: 11.5rem;
+}
+
+main .nft-card .nft-information-wrapper .nft-price-and-no-of-days-left-container .no-of-days-left-only {
+    position: absolute;
+    top: 5.5rem;
+    left: 13rem;
+    font-size: 0.8rem;
+    color: hsl(215, 51%, 70%);
+}
+
+main .nft-card .line-break {
+    border: 0.06rem solid hsla(215, 52%, 70%, 0.175);
+    width: 15.6rem;
+    position: absolute;
+    left: 1rem;
+}
+
+main .nft-card .artist-information-wrapper {
+    /* background-color: blueviolet; */
+    position: relative;
+    width: 17rem;
+    height: 3rem;
+    margin: 1rem auto;
+}
+
+main .nft-card .artist-information-wrapper .artist-profile-photo {
+    height: 2rem;
+    border: 0.1rem solid hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    display: inline-block;
+    position: absolute;
+    left: 0.5rem;
+}
+
+main .nft-card .artist-information-wrapper .artist-made-by-text {
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    font-size: 0.8rem;
+    display: inline-block;
+    position: absolute;
+    top: 0.5rem;
+    left: 3.5rem;
+    width: 9rem;
+    /* background-color: rgb(73, 244, 99); */
+}
+
+main .nft-card .artist-information-wrapper .artist-made-by-text .name-of-artist-detailed-text {
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    left: 4.3rem;
+}
